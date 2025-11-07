@@ -71,3 +71,4 @@ java PromptBuilderApp
 * The prompt is deterministic: same inputs → same prompt text.
 
 That’s it. Compile, run, load files, generate prompt.
+# llm-diff-prompt-builder
