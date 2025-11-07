@@ -72,4 +72,3 @@ java PromptBuilderApp
 * The diff header uses the **actual filenames** you loaded.
 * The prompt is deterministic: same inputs → same prompt text.
 
-Compile, run, load files, generate prompt.
