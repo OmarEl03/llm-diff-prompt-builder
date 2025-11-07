@@ -1,0 +1,20 @@
+# Java / build
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+target/
+out/
+build/
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Local prompts / artifacts
+prompt*.txt
+*.log
