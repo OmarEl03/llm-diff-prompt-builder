@@ -9,33 +9,34 @@ A tiny Swing app to load **Before/After** code files, generate a **unified diff*
 * **JDK 17+** (tested with OpenJDK 21)
 * A desktop environment (it’s a GUI app)
 
-Install on Ubuntu:
+---
 
-```bash
-sudo apt update
-sudo apt install -y openjdk-21-jdk
-```
+## 2) Quick Start
 
-Check:
-
-```bash
-java -version
-javac -version
-```
+Here’s a cleaned **Quick Start** that uses `git clone` instead of “put files in a folder.” Replace your section with this:
 
 ---
 
 ## 2) Quick Start
 
-Put these files in one folder:
+Clone the repo and enter it:
+
+```bash
+git clone https://github.com/OmarEl03/llm-diff-prompt-builder.git
+cd llm-diff-prompt-builder
+```
+
+Project structure:
 
 ```
-PromptBuilderApp.java
-Before.py   # optional example
-After.py    # optional example
+.
+├── After.py
+├── Before.py
+├── PromptBuilderApp.java
+└── README.md
 ```
 
-Compile:
+Build:
 
 ```bash
 javac PromptBuilderApp.java
@@ -46,6 +47,7 @@ Run:
 ```bash
 java PromptBuilderApp
 ```
+
 
 ---
 
@@ -70,5 +72,4 @@ java PromptBuilderApp
 * The diff header uses the **actual filenames** you loaded.
 * The prompt is deterministic: same inputs → same prompt text.
 
-That’s it. Compile, run, load files, generate prompt.
-# llm-diff-prompt-builder
+Compile, run, load files, generate prompt.
